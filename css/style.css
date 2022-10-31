@@ -38,7 +38,8 @@ ul {
 }
 
 img {
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 }
 
 .title {
@@ -566,6 +567,34 @@ img {
 	padding: 10px 0;
 	margin-bottom: 57px;
 	color: #fff;
+}
+
+.footer__form-input ::-webkit-input-placeholder {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	opacity: 0.2;
+}
+
+.footer__form-input ::-moz-placeholder {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	opacity: 0.2;
+}
+
+.footer__form-input :-ms-input-placeholder {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	opacity: 0.2;
+}
+
+.footer__form-input ::-ms-input-placeholder {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	opacity: 0.2;
 }
 
 .footer__form-input ::placeholder {
